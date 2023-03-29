@@ -5,4 +5,6 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
-      - run: echo ${{secrets.MY_EMAIL}}
+      - run: |
+          mkdir hoge
+          mkdir hoge
